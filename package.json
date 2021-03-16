@@ -1,6 +1,6 @@
 {
 	"name": "djs-shortcuts",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Shortcut commands for discord.js ",
 	"main": "./src/lib/index.js",
 	"scripts": {
@@ -9,6 +9,10 @@
 	},
 	"author": "microsoft-word",
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MicrosoftWord12/Discord-JS-Shortcuts-JS.git"
+	},
 	"dependencies": {
 		"discord.js": "^12.5.1"
 	},

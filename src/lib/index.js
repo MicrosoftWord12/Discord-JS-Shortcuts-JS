@@ -25,7 +25,7 @@ module.exports = class Shortcuts {
 	 * @param {Discord.Client} client
 	 * @param {string} guildID
 	 */
-	Guild(client, guildID) {
+	guild(client, guildID) {
 		const server = client.guilds.cache.find((gu) => gu.id === guildID);
 		return server;
 	}
@@ -35,7 +35,7 @@ module.exports = class Shortcuts {
 	 * @param {Discord.Client} client
 	 * @param {string} guildID
 	 */
-	GuildID(client, guildID) {
+	guildID(client, guildID) {
 		const server = client.guilds.cache.find((gu) => gu.id === guildID);
 		return server.id;
 	}

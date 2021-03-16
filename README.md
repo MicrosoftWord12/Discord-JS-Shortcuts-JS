@@ -19,9 +19,31 @@ getGuildID();
 #### Guild
 
 ```javascript
-guild();
+guild(client, guildID);
 ```
 
 ```javascript
-guildID();
+guildID(client, guildID);
+```
+
+#### Client
+
+```javascript
+clientID(client);
+```
+
+```javascript
+clientTag(client);
+```
+
+```javascript
+clientName(client);
+```
+
+```javascript
+clientDiscriminator(client);
+```
+
+```javascript
+clientAvatarURL(client);
 ```
