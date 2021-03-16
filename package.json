@@ -1,6 +1,6 @@
 {
 	"name": "djs-shortcuts",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "Shortcut commands for discord.js ",
 	"main": "./src/lib/index.js",
 	"scripts": {
