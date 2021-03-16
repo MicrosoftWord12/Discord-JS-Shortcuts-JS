@@ -1,0 +1,18 @@
+{
+	"name": "djs-shortcuts",
+	"version": "1.0.1",
+	"description": "Shortcut commands for discord.js ",
+	"main": "./src/lib/index.js",
+	"scripts": {
+		"dev": "nodemon ./src/lib/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "microsoft-word",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^12.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
